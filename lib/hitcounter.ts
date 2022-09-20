@@ -1,4 +1,5 @@
 import * as lambda from 'aws-cdk-lib/aws-lambda';
+import * as cdk from 'aws-cdk-lib';
 import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
 import {Construct} from 'constructs';
 
@@ -23,7 +24,8 @@ export class HitCounter extends Construct{ //HitCounter is the CONSTRUCT
             partitionKey: { 
             name: 'path', 
             type: dynamodb.AttributeType.STRING 
-        }
+        },
+        removalPolicy: cdk.RemovalPolicy.DESTROY    //Added a removal policy
         });
 
         this.table = table; 
