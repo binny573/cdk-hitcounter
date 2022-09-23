@@ -3,6 +3,7 @@
 *.d.ts
 node_modules
 
+sessionmanager-bundle.zip
 # CDK asset staging directory
 .cdk.staging
 cdk.out
