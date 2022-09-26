@@ -12,6 +12,8 @@
 on: push
 
 jobs:
+  runs-on: 
+    mac
   my_first_job:
     name: My first job
     steps:
