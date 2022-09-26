@@ -1,0 +1,21 @@
+#allowedCopyrightHolders:
+#  - 'Google LLC'
+#allowedLicenses:
+#  - 'Apache-2.0'
+#  - 'MIT'
+#  - 'BSD-3'
+#sourceFileExtensions:
+#  - 'ts'
+#  - 'js'
+#  - 'java'
+
+on: push
+
+jobs:
+  runs-on: 
+    mac
+  my_first_job:
+    name: My first job
+    steps:
+        - uses: actions/checkout@v2
+# ignoreFiles are empty
