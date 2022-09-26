@@ -4,10 +4,10 @@
 #  - 'Apache-2.0'
 #  - 'MIT'
 #  - 'BSD-3'
-sourceFileExtensions:
-  - 'ts'
-  - 'js'
-  - 'java'
+#sourceFileExtensions:
+#  - 'ts'
+#  - 'js'
+#  - 'java'
 
 on: push
 
