@@ -8,4 +8,6 @@ sourceFileExtensions:
   - 'ts'
   - 'js'
   - 'java'
+  
+on: push
 # ignoreFiles are empty
